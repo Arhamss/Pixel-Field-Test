@@ -49,7 +49,8 @@ class CollectionProductModel extends Equatable {
   const CollectionProductModel({
     required this.id,
     required this.name,
-    required this.quantity,
+    required this.availableQuantity,
+    required this.totalQuantity,
     required this.imageUrl,
   });
 
@@ -57,37 +58,45 @@ class CollectionProductModel extends Equatable {
     return CollectionProductModel(
       id: json['id'] as String,
       name: json['name'] as String,
-      quantity: json['quantity'] as String,
+      availableQuantity: json['available_quantity'] as int,
+      totalQuantity: json['total_quantity'] as int,
       imageUrl: json['image_url'] as String,
     );
   }
 
   final String id;
   final String name;
-  final String quantity;
+  final int availableQuantity;
+  final int totalQuantity;
   final String imageUrl;
+
+  /// Formatted quantity string (e.g., "135/184")
+  String get quantityDisplay => '$availableQuantity/$totalQuantity';
 
   Map<String, dynamic> toJson() => {
         'id': id,
         'name': name,
-        'quantity': quantity,
+        'available_quantity': availableQuantity,
+        'total_quantity': totalQuantity,
         'image_url': imageUrl,
       };
 
   CollectionProductModel copyWith({
     String? id,
     String? name,
-    String? quantity,
+    int? availableQuantity,
+    int? totalQuantity,
     String? imageUrl,
   }) {
     return CollectionProductModel(
       id: id ?? this.id,
       name: name ?? this.name,
-      quantity: quantity ?? this.quantity,
+      availableQuantity: availableQuantity ?? this.availableQuantity,
+      totalQuantity: totalQuantity ?? this.totalQuantity,
       imageUrl: imageUrl ?? this.imageUrl,
     );
   }
 
   @override
-  List<Object?> get props => [id, name, quantity, imageUrl];
+  List<Object?> get props => [id, name, availableQuantity, totalQuantity, imageUrl];
 }

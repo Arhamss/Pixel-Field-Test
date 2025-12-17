@@ -83,9 +83,9 @@ class _CollectionScreenState extends State<CollectionScreen> {
                         gridDelegate:
                             const SliverGridDelegateWithFixedCrossAxisCount(
                               crossAxisCount: 2,
-                              crossAxisSpacing: 12,
-                              mainAxisSpacing: 12,
-                              childAspectRatio: 0.65,
+                              crossAxisSpacing: 8,
+                              mainAxisSpacing: 8,
+                              childAspectRatio: 0.5367412141,
                             ),
                         itemCount: products.length,
                         itemBuilder: (context, index) {
@@ -118,9 +118,9 @@ class _LoadingGrid extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 16),
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
-        crossAxisSpacing: 12,
-        mainAxisSpacing: 12,
-        childAspectRatio: 0.65,
+        crossAxisSpacing: 8,
+        mainAxisSpacing: 8,
+        childAspectRatio: 0.5367412141,
       ),
       itemCount: 4,
       itemBuilder: (context, index) => Container(
@@ -301,7 +301,6 @@ class _CollectionItem extends StatelessWidget {
                 ),
               ),
             ),
-            // Product info
             Padding(
               padding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
               child: Column(
@@ -309,17 +308,18 @@ class _CollectionItem extends StatelessWidget {
                 children: [
                   Text(
                     product.name,
-                    style: context.t2.copyWith(
+                    style: context.h3.copyWith(
                       color: AppColors.greyscaleGrey1,
+                      fontSize: 22,
                     ),
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    product.quantity,
+                    '(${product.quantityDisplay})',
                     style: context.l2.copyWith(
-                      color: AppColors.greyscaleGrey2,
+                      color: AppColors.greyscaleGrey4,
                     ),
                   ),
                 ],

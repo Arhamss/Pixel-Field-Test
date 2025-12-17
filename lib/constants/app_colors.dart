@@ -60,6 +60,7 @@ abstract class AppColors {
   static const greyscaleGrey1 = Color(0xFFE7E9EA);
   static const greyscaleGrey2 = Color(0xFFB8BDBF);
   static const greyscaleGrey3 = Color(0xFF899194);
+  static const greyscaleGrey4 = Color(0xFFD7D5D1);
 
   // Primary Colors
   static const primary = Color(0xFFD49A00);

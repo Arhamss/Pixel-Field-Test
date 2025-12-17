@@ -58,10 +58,11 @@ class _LoginScreenState extends State<LoginScreen> {
                   textStyle: context.b1.copyWith(
                     color: AppColors.greyscaleGrey1,
                   ),
-                  hintColor: AppColors.greyscaleGrey1,
+                  hintColor: AppColors.greyscaleGrey2,
                 ),
                 const SizedBox(height: 24),
                 CustomTextField.password(
+                  hintText: '******',
                   controller: _passwordController,
                   labelText: 'Password',
                   borderStyle: TextFieldBorderStyle.underline,

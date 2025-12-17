@@ -591,9 +591,6 @@ class _CustomTextFieldState extends State<CustomTextField> {
             : const EdgeInsets.symmetric(horizontal: 12),
         child: SvgPicture.asset(
           _obscureText ? AssetPaths.eyeOpenIcon : AssetPaths.eyeOpenIcon,
-          colorFilter: iconColor != null
-              ? ColorFilter.mode(iconColor, BlendMode.srcIn)
-              : null,
         ),
       ),
     );
@@ -675,10 +672,10 @@ class _CustomTextFieldState extends State<CustomTextField> {
                   fillColor: isUnderline
                       ? Colors.transparent
                       : hasFocus
-                          ? AppColors.textFieldBackground
-                          : widget.backgroundColor ?? AppColors.white,
+                      ? AppColors.textFieldBackground
+                      : widget.backgroundColor ?? AppColors.white,
                   hintStyle: context.b2.copyWith(
-                    color: widget.hintColor ?? AppColors.textSecondary,
+                    color: widget.hintColor ?? AppColors.greyscaleGrey2,
                   ),
                   counterText: '',
                   border: _createBorder(effectiveBorderColor),
@@ -698,7 +695,8 @@ class _CustomTextFieldState extends State<CustomTextField> {
                           child: _buildSuffixIcon(),
                         )
                       : null,
-                  contentPadding: config.contentPadding ??
+                  contentPadding:
+                      config.contentPadding ??
                       (isUnderline
                           ? const EdgeInsets.only(bottom: 8)
                           : const EdgeInsets.all(12)),
