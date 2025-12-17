@@ -32,6 +32,9 @@ Future<void> bootstrap(FutureOr<Widget> Function() builder) async {
   Bloc.observer = const AppBlocObserver();
 
   await Injector.setup();
-  
+
+  // Clear cache on startup to load fresh JSON data (remove in production)
+  Injector.resolve<AppPreferences>().clearAllCache();
+
   runApp(await builder());
 }
