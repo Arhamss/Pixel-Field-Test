@@ -1,0 +1,52 @@
+{
+  "collections": [
+    {
+      "id": "genesis",
+      "name": "Genesis Collection",
+      "products": [
+        {
+          "id": "product_1",
+          "name": "Talisker 18 Year old",
+          "quantity": "Bottle 135/184",
+          "image_url": "assets/images/product_img.png"
+        },
+        {
+          "id": "product_2",
+          "name": "Macallan 25 Year old",
+          "quantity": "Bottle 42/100",
+          "image_url": "assets/images/product_img.png"
+        },
+        {
+          "id": "product_3",
+          "name": "Glenfiddich 21 Year old",
+          "quantity": "Bottle 88/200",
+          "image_url": "assets/images/product_img.png"
+        },
+        {
+          "id": "product_4",
+          "name": "Lagavulin 16 Year old",
+          "quantity": "Bottle 12/150",
+          "image_url": "assets/images/product_img.png"
+        }
+      ]
+    },
+    {
+      "id": "founders",
+      "name": "Founders Collection",
+      "products": [
+        {
+          "id": "product_5",
+          "name": "Highland Park 30 Year old",
+          "quantity": "Bottle 5/50",
+          "image_url": "assets/images/product_img.png"
+        },
+        {
+          "id": "product_6",
+          "name": "Ardbeg 10 Year old",
+          "quantity": "Bottle 77/300",
+          "image_url": "assets/images/product_img.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "products": [
+    {
+      "id": "product_1",
+      "name": "Talisker",
+      "age": 18,
+      "cask_number": "2504",
+      "bottle_number": 135,
+      "total_bottles": 184,
+      "distillery": "Talisker",
+      "region": "Island",
+      "country": "Scotland",
+      "type": "Single malt",
+      "age_statement": "18 years old",
+      "filled_date": "05 / 2020",
+      "bottled_date": "05 / 2024",
+      "abv": "45.8%",
+      "size": "700ml",
+      "finish": "Ex-Bourbon",
+      "collection_name": "Genesis Collection",
+      "image_url": "assets/images/product_img.png",
+      "status": "genuine_unopened",
+      "video_id": "dQw4w9WgXcQ",
+      "tasting_notes": {
+        "author": "Charles MacLean MBE",
+        "nose": [
+          "Rich maritime smoke",
+          "Sweet malt and honey",
+          "Hints of dried fruit"
+        ],
+        "palate": [
+          "Full-bodied and warming",
+          "Peppery spice",
+          "Sea salt and citrus"
+        ],
+        "finish": [
+          "Long and smoky",
+          "Sweet vanilla notes",
+          "Lingering warmth"
+        ],
+        "user_notes": {
+          "nose": [
+            "Peaty aroma",
+            "Ocean breeze",
+            "Subtle sweetness"
+          ],
+          "palate": [
+            "Smooth texture",
+            "Complex flavors",
+            "Balanced heat"
+          ],
+          "finish": [
+            "Memorable finish",
+            "Smoke trails",
+            "Pleasant aftertaste"
+          ]
+        }
+      },
+      "history": [
+        {
+          "label": "Distilled",
+          "title": "May 2020",
+          "descriptions": [
+            "Distilled at Talisker Distillery",
+            "Isle of Skye, Scotland"
+          ],
+          "attachments": [
+            "assets/images/product_img.png",
+            "assets/images/product_img.png",
+            "assets/images/product_img.png"
+          ]
+        },
+        {
+          "label": "Bottled",
+          "title": "May 2024",
+          "descriptions": [
+            "Bottled at cask strength",
+            "Limited edition release"
+          ],
+          "attachments": [
+            "assets/images/product_img.png",
+            "assets/images/product_img.png",
+            "assets/images/product_img.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product_2",
+      "name": "Macallan",
+      "age": 25,
+      "cask_number": "1892",
+      "bottle_number": 42,
+      "total_bottles": 100,
+      "distillery": "Macallan",
+      "region": "Speyside",
+      "country": "Scotland",
+      "type": "Single malt",
+      "age_statement": "25 years old",
+      "filled_date": "03 / 1999",
+      "bottled_date": "03 / 2024",
+      "abv": "43%",
+      "size": "700ml",
+      "finish": "Sherry Oak",
+      "collection_name": "Genesis Collection",
+      "image_url": "assets/images/product_img.png",
+      "status": "genuine_unopened",
+      "video_id": "dQw4w9WgXcQ",
+      "tasting_notes": {
+        "author": "Charles MacLean MBE",
+        "nose": [
+          "Rich dried fruits",
+          "Wood spice and vanilla",
+          "Orange peel"
+        ],
+        "palate": [
+          "Luxuriously smooth",
+          "Christmas cake",
+          "Dark chocolate"
+        ],
+        "finish": [
+          "Exceptionally long",
+          "Dried ginger",
+          "Oak tannins"
+        ]
+      },
+      "history": [
+        {
+          "label": "Distilled",
+          "title": "March 1999",
+          "descriptions": [
+            "Distilled at Macallan Distillery",
+            "Speyside, Scotland"
+          ],
+          "attachments": []
+        },
+        {
+          "label": "Bottled",
+          "title": "March 2024",
+          "descriptions": [
+            "Aged in sherry oak casks",
+            "Premium release"
+          ],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "product_3",
+      "name": "Glenfiddich",
+      "age": 21,
+      "cask_number": "3301",
+      "bottle_number": 88,
+      "total_bottles": 200,
+      "distillery": "Glenfiddich",
+      "region": "Speyside",
+      "country": "Scotland",
+      "type": "Single malt",
+      "age_statement": "21 years old",
+      "filled_date": "08 / 2003",
+      "bottled_date": "08 / 2024",
+      "abv": "40%",
+      "size": "700ml",
+      "finish": "Caribbean Rum Cask",
+      "collection_name": "Genesis Collection",
+      "image_url": "assets/images/product_img.png",
+      "status": "genuine_opened",
+      "video_id": "dQw4w9WgXcQ",
+      "tasting_notes": {
+        "author": "Charles MacLean MBE",
+        "nose": [
+          "Tropical banana",
+          "Toffee sweetness",
+          "Lime zest"
+        ],
+        "palate": [
+          "Creamy vanilla",
+          "Ginger and fig",
+          "Subtle oak"
+        ],
+        "finish": [
+          "Warm and sweet",
+          "Lingering spice",
+          "Smooth"
+        ]
+      },
+      "history": [
+        {
+          "label": "Distilled",
+          "title": "August 2003",
+          "descriptions": [
+            "Distilled at Glenfiddich Distillery",
+            "Dufftown, Scotland"
+          ],
+          "attachments": []
+        },
+        {
+          "label": "Finished",
+          "title": "August 2024",
+          "descriptions": [
+            "Finished in Caribbean rum casks",
+            "Gran Reserva expression"
+          ],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "product_4",
+      "name": "Lagavulin",
+      "age": 16,
+      "cask_number": "4420",
+      "bottle_number": 12,
+      "total_bottles": 150,
+      "distillery": "Lagavulin",
+      "region": "Islay",
+      "country": "Scotland",
+      "type": "Single malt",
+      "age_statement": "16 years old",
+      "filled_date": "06 / 2008",
+      "bottled_date": "06 / 2024",
+      "abv": "43%",
+      "size": "700ml",
+      "finish": "Ex-Bourbon & Sherry",
+      "collection_name": "Genesis Collection",
+      "image_url": "assets/images/product_img.png",
+      "status": "genuine_unopened",
+      "video_id": "dQw4w9WgXcQ",
+      "tasting_notes": {
+        "author": "Charles MacLean MBE",
+        "nose": [
+          "Intense peat smoke",
+          "Seaweed and iodine",
+          "Sweet malt"
+        ],
+        "palate": [
+          "Rich and powerful",
+          "Dried fruit sweetness",
+          "Maritime character"
+        ],
+        "finish": [
+          "Very long",
+          "Smoke and sea salt",
+          "Warming"
+        ]
+      },
+      "history": [
+        {
+          "label": "Distilled",
+          "title": "June 2008",
+          "descriptions": [
+            "Distilled at Lagavulin Distillery",
+            "Port Ellen, Islay"
+          ],
+          "attachments": []
+        },
+        {
+          "label": "Bottled",
+          "title": "June 2024",
+          "descriptions": [
+            "Classic 16 year expression",
+            "Islay's finest"
+          ],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "product_5",
+      "name": "Highland Park",
+      "age": 30,
+      "cask_number": "5501",
+      "bottle_number": 5,
+      "total_bottles": 50,
+      "distillery": "Highland Park",
+      "region": "Islands",
+      "country": "Scotland",
+      "type": "Single malt",
+      "age_statement": "30 years old",
+      "filled_date": "01 / 1994",
+      "bottled_date": "01 / 2024",
+      "abv": "45.7%",
+      "size": "700ml",
+      "finish": "Sherry Seasoned Oak",
+      "collection_name": "Founders Collection",
+      "image_url": "assets/images/product_img.png",
+      "status": "genuine_unopened",
+      "video_id": "dQw4w9WgXcQ",
+      "tasting_notes": {
+        "author": "Charles MacLean MBE",
+        "nose": [
+          "Heather honey",
+          "Aromatic smoke",
+          "Dried flowers"
+        ],
+        "palate": [
+          "Silky smooth",
+          "Citrus and spice",
+          "Complex layers"
+        ],
+        "finish": [
+          "Incredibly long",
+          "Elegant smoke",
+          "Sweet and dry"
+        ]
+      },
+      "history": [
+        {
+          "label": "Distilled",
+          "title": "January 1994",
+          "descriptions": [
+            "Distilled at Highland Park Distillery",
+            "Kirkwall, Orkney"
+          ],
+          "attachments": []
+        },
+        {
+          "label": "Bottled",
+          "title": "January 2024",
+          "descriptions": [
+            "Rare 30 year old expression",
+            "Limited availability"
+          ],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "product_6",
+      "name": "Ardbeg",
+      "age": 10,
+      "cask_number": "6677",
+      "bottle_number": 77,
+      "total_bottles": 300,
+      "distillery": "Ardbeg",
+      "region": "Islay",
+      "country": "Scotland",
+      "type": "Single malt",
+      "age_statement": "10 years old",
+      "filled_date": "09 / 2014",
+      "bottled_date": "09 / 2024",
+      "abv": "46%",
+      "size": "700ml",
+      "finish": "Ex-Bourbon",
+      "collection_name": "Founders Collection",
+      "image_url": "assets/images/product_img.png",
+      "status": "empty",
+      "video_id": "dQw4w9WgXcQ",
+      "tasting_notes": {
+        "author": "Charles MacLean MBE",
+        "nose": [
+          "Explosive peat",
+          "Lemon and lime",
+          "Ocean spray"
+        ],
+        "palate": [
+          "Bold and smoky",
+          "Vanilla sweetness",
+          "Black pepper"
+        ],
+        "finish": [
+          "Long and smoky",
+          "Espresso notes",
+          "Sea salt"
+        ]
+      },
+      "history": [
+        {
+          "label": "Distilled",
+          "title": "September 2014",
+          "descriptions": [
+            "Distilled at Ardbeg Distillery",
+            "Port Ellen, Islay"
+          ],
+          "attachments": []
+        },
+        {
+          "label": "Bottled",
+          "title": "September 2024",
+          "descriptions": [
+            "Ten Years Old expression",
+            "Non-chill filtered"
+          ],
+          "attachments": []
+        }
+      ]
+    }
+  ]
+}
