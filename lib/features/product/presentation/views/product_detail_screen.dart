@@ -67,9 +67,9 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                 return _ErrorView(
                   message:
                       state.product.errorMessage ?? 'Failed to load product',
-                  onRetry: () => context
-                      .read<ProductDetailCubit>()
-                      .loadProduct(widget.productId),
+                  onRetry: () => context.read<ProductDetailCubit>().loadProduct(
+                    widget.productId,
+                  ),
                 );
               }
 
@@ -745,11 +745,28 @@ class _HistoryTimelineItem extends StatelessWidget {
                                 decoration: const BoxDecoration(
                                   color: AppColors.borderPrimary,
                                 ),
-                                child: Image.asset(
+                                child: Image.network(
                                   attachments![index],
                                   fit: BoxFit.cover,
-                                  errorBuilder: (_, __, ___) =>
-                                      const SizedBox(),
+                                  loadingBuilder: (context, child, progress) {
+                                    if (progress == null) return child;
+                                    return const Center(
+                                      child: SizedBox(
+                                        width: 20,
+                                        height: 20,
+                                        child: CircularProgressIndicator(
+                                          strokeWidth: 2,
+                                          color: AppColors.primary,
+                                        ),
+                                      ),
+                                    );
+                                  },
+                                  errorBuilder: (_, __, ___) => const Center(
+                                    child: Icon(
+                                      Icons.image_not_supported_outlined,
+                                      color: AppColors.greyscaleGrey3,
+                                    ),
+                                  ),
                                 ),
                               ),
                             ),

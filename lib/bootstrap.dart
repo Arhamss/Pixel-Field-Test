@@ -3,6 +3,7 @@ import 'dart:developer';
 
 import 'package:bloc/bloc.dart';
 import 'package:flutter/widgets.dart';
+import 'package:pixelfield_test/core/app_preferences/app_preferences.dart';
 import 'package:pixelfield_test/core/di/injector.dart';
 
 class AppBlocObserver extends BlocObserver {
@@ -31,6 +32,6 @@ Future<void> bootstrap(FutureOr<Widget> Function() builder) async {
   Bloc.observer = const AppBlocObserver();
 
   await Injector.setup();
-
+  
   runApp(await builder());
 }

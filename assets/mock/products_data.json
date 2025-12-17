@@ -65,9 +65,9 @@
             "Isle of Skye, Scotland"
           ],
           "attachments": [
-            "assets/images/product_img.png",
-            "assets/images/product_img.png",
-            "assets/images/product_img.png"
+            "https://picsum.photos/seed/talisker1/200/200",
+            "https://picsum.photos/seed/talisker2/200/200",
+            "https://picsum.photos/seed/talisker3/200/200"
           ]
         },
         {
@@ -78,9 +78,9 @@
             "Limited edition release"
           ],
           "attachments": [
-            "assets/images/product_img.png",
-            "assets/images/product_img.png",
-            "assets/images/product_img.png"
+            "https://picsum.photos/seed/talisker4/200/200",
+            "https://picsum.photos/seed/talisker5/200/200",
+            "https://picsum.photos/seed/talisker6/200/200"
           ]
         }
       ]
@@ -132,7 +132,10 @@
             "Distilled at Macallan Distillery",
             "Speyside, Scotland"
           ],
-          "attachments": []
+          "attachments": [
+            "https://picsum.photos/seed/macallan1/200/200",
+            "https://picsum.photos/seed/macallan2/200/200"
+          ]
         },
         {
           "label": "Bottled",
@@ -141,7 +144,11 @@
             "Aged in sherry oak casks",
             "Premium release"
           ],
-          "attachments": []
+          "attachments": [
+            "https://picsum.photos/seed/macallan3/200/200",
+            "https://picsum.photos/seed/macallan4/200/200",
+            "https://picsum.photos/seed/macallan5/200/200"
+          ]
         }
       ]
     },
@@ -192,7 +199,11 @@
             "Distilled at Glenfiddich Distillery",
             "Dufftown, Scotland"
           ],
-          "attachments": []
+          "attachments": [
+            "https://picsum.photos/seed/glenfiddich1/200/200",
+            "https://picsum.photos/seed/glenfiddich2/200/200",
+            "https://picsum.photos/seed/glenfiddich3/200/200"
+          ]
         },
         {
           "label": "Finished",
@@ -201,7 +212,9 @@
             "Finished in Caribbean rum casks",
             "Gran Reserva expression"
           ],
-          "attachments": []
+          "attachments": [
+            "https://picsum.photos/seed/glenfiddich4/200/200"
+          ]
         }
       ]
     },
@@ -252,7 +265,10 @@
             "Distilled at Lagavulin Distillery",
             "Port Ellen, Islay"
           ],
-          "attachments": []
+          "attachments": [
+            "https://picsum.photos/seed/lagavulin1/200/200",
+            "https://picsum.photos/seed/lagavulin2/200/200"
+          ]
         },
         {
           "label": "Bottled",
@@ -261,7 +277,11 @@
             "Classic 16 year expression",
             "Islay's finest"
           ],
-          "attachments": []
+          "attachments": [
+            "https://picsum.photos/seed/lagavulin3/200/200",
+            "https://picsum.photos/seed/lagavulin4/200/200",
+            "https://picsum.photos/seed/lagavulin5/200/200"
+          ]
         }
       ]
     },
@@ -312,7 +332,11 @@
             "Distilled at Highland Park Distillery",
             "Kirkwall, Orkney"
           ],
-          "attachments": []
+          "attachments": [
+            "https://picsum.photos/seed/highland1/200/200",
+            "https://picsum.photos/seed/highland2/200/200",
+            "https://picsum.photos/seed/highland3/200/200"
+          ]
         },
         {
           "label": "Bottled",
@@ -321,7 +345,10 @@
             "Rare 30 year old expression",
             "Limited availability"
           ],
-          "attachments": []
+          "attachments": [
+            "https://picsum.photos/seed/highland4/200/200",
+            "https://picsum.photos/seed/highland5/200/200"
+          ]
         }
       ]
     },
@@ -372,7 +399,11 @@
             "Distilled at Ardbeg Distillery",
             "Port Ellen, Islay"
           ],
-          "attachments": []
+          "attachments": [
+            "https://picsum.photos/seed/ardbeg1/200/200",
+            "https://picsum.photos/seed/ardbeg2/200/200",
+            "https://picsum.photos/seed/ardbeg3/200/200"
+          ]
         },
         {
           "label": "Bottled",
@@ -381,7 +412,10 @@
             "Ten Years Old expression",
             "Non-chill filtered"
           ],
-          "attachments": []
+          "attachments": [
+            "https://picsum.photos/seed/ardbeg4/200/200",
+            "https://picsum.photos/seed/ardbeg5/200/200"
+          ]
         }
       ]
     }
