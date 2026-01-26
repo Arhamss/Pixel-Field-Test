@@ -28,7 +28,7 @@ dependencies:
   dio: ^5.9.0
   smooth_page_indicator: ^2.0.1
   shimmer: ^3.0.0
-  flutter_local_notifications: ^19.5.0
+  flutter_local_notifications: ^20.0.0
   hive: ^2.2.3
   google_fonts: ^6.3.3
   youtube_player_flutter: ^9.1.3
