@@ -25,7 +25,7 @@ dependencies:
   toastification: ^3.0.3
   flutter_svg: ^2.2.3
   cached_network_image: ^3.4.1
-  dio: ^5.9.0
+  dio: ^5.9.1
   smooth_page_indicator: ^2.0.1
   shimmer: ^3.0.0
   flutter_local_notifications: ^19.5.0
